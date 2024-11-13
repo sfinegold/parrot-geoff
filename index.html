@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parrot Animation</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f8ff;
+      margin: 0;
+    }
+    #parrot-container {
+      cursor: pointer;
+    }
+    #parrot {
+      width: 400px;
+      transition: transform 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <div id="parrot-container">
+    <img id="parrot" src="parrot_closed.png" alt="Parrot">
+  </div>
+
+  <audio id="parrot-audio" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
