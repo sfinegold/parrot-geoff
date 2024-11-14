@@ -4,10 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const parrotAudio = document.getElementById('parrot-audio');
 
   // List of sound file paths
-  const sounds = [
-	  'geoff_sound10.mp3',
-	  'geoff_sound9.mp3',
-	  'geoff_sound8.mp3',	  
+  const sounds = [	  
 	  'geoff_sound1.mp3',
 	  'geoff_sound2.mp3',
 	  'geoff_sound3.mp3',
@@ -15,6 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	  'geoff_sound5.mp3',
 	  'geoff_sound6.mp3',
 	  'geoff_sound7.mp3',
+	  'geoff_sound8.mp3',
+	  'geoff_sound9.mp3',	  	  
+	  'geoff_sound10.mp3',	  
 	  'geoff_sound11.mp3'
   ];
   
